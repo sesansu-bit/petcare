@@ -1,0 +1,165 @@
+.title{
+    margin-left: 5px;
+    padding-top:5px;
+    font-size: 1.2rem;
+}
+.p{
+    margin-left:6px;
+    font-weight: 600;
+   padding-top: 8px; 
+   font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    background-color: rgb(33, 3, 3);
+}
+.care{
+    color:rgb(0, 218, 0);
+}
+.cloth{
+    margin-right: 9px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+.medicine {
+    margin-left: 2px;
+        font-weight: 500;
+        font-size: 0.9rem;
+            margin-top: 2px;
+}
+.food {
+    margin-left: 10px;
+        font-size: 0.9rem;
+        margin-right: 1rem;
+            font-weight: 500;
+            margin-top: 2px;
+}
+.cart{
+       background-color: rgb(0, 204, 0);
+       color:black;
+}
+
+
+
+.sideicon {
+    height: 50px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon {
+    color: rgb(255, 255, 255);
+    transform: scale(1.3);
+    transition: all 0.4s ease-in-out;
+}
+
+.sideitem {
+    height: 180px;
+    width: 100vw;
+    position: fixed;
+    margin-top: 14rem;
+    z-index: 12;
+    backdrop-filter: blur(6px);
+    background-color: rgb(33, 3, 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+transition: height 2s ease;
+}
+
+ .iconwhite {
+     color: rgb(0, 204, 0);
+     transform: scale(1.4);
+ }
+ 
+ .searchicon{
+        color: rgb(255, 255, 255);
+        transform: scale(1.5);
+ }
+.threecover{
+    margin-left: auto;
+}
+.itemcover{
+    display: none;
+}
+ .search2cover {
+     display: none;
+ }
+ 
+
+@media (min-width: 500px) {
+.sideicon {
+    display: none;
+}
+.threecover {
+    width:120px;
+    margin-right: 0.5rem;
+}
+.itemcover {
+    display:block;
+    margin-left: 8%;
+}
+.clothtab {
+    font-weight: 600;
+    margin-left: 10%;
+}
+.foodtab {
+    font-weight: 600;
+    margin-left: 10%;}
+.medicinetab {
+    font-weight: 600;
+    margin-left: 10%;}
+         
+                   .search2cover {
+                    display: none;
+                   }
+}
+@media (min-width: 710px) {
+    .searchicon2 {
+                    display: inline-block;
+            color: rgb(255, 255, 255);
+            transform: scale(1.5);
+            margin-top: 1rem;
+            margin-left: 1rem;
+          margin-right: 0.2rem;
+        }
+
+                 .searchicon {
+            display: none;                 }
+                        .itemcover {
+                            width:30%;
+                        
+                        }
+                                 .threecover {
+                                     width: 80px;
+                                     margin-right: 0.5rem;
+                                    }
+                                    .search2cover{
+                                        display:inline-flex;
+                                        margin-left: 2rem;
+                                        margin-top: 0.3rem;
+                                    }
+    .itemcover {
+        margin-left: 5%;
+    }
+          .search2cover p{
+            margin-top: -0.3rem;
+            color: rgb(0, 0, 0);
+            font-weight: 400;
+            
+          }
+                  .icon2{
+                color: rgb(2, 118, 2);
+                    transform: scale(0.8);
+                  }
+}

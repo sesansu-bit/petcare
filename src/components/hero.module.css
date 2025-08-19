@@ -1,0 +1,85 @@
+.pet-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 50%;
+    margin-left: 12%;
+        margin-right: 10%;
+        backdrop-filter: blur(15px);
+        padding-left: 0.5rem;
+        border-right: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(0, 181, 0);
+        background-color: rgba(19, 213, 19, 0.205)
+}
+.pet{
+    color:rgb(0, 181, 0);
+}
+.cover{
+            backdrop-filter: blur(1px);
+}
+.short-title{
+   margin-left: 15%;
+   margin-right: 12.5%;
+   font-size: 1rem;
+
+   margin-top: 1.2rem;
+}
+.botton-box{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+  
+}
+.botton1{
+background-color: rgba(71, 6, 6, 0.873);
+width:6rem;
+height:1.8rem;
+border-top-left-radius: 10px;
+}
+.botton2 {
+    width: 8rem;
+    height: 1.8rem;
+    border-bottom-right-radius: 10px;
+}
+.container{
+    border-top-left-radius: 15px;
+    background-color: rgba(0, 181, 0, 0.952);
+            backdrop-filter: blur(20px);
+}
+.container2 {
+    border-top-left-radius: 15px;
+            backdrop-filter: blur(5px);
+    background-color: rgba(71, 6, 6, 0.968);
+
+}
+.pawicon{
+    margin-top:7%;
+    color:white;
+}
+.card-about{
+font-size: 0.5rem;
+margin-left: 10%;
+    color: white;
+}
+.contact{
+    border-top-left-radius: 10px;
+    font-size: 0.5rem;
+        background-color: rgb(71, 6, 6);
+    margin-top: 12%;
+    color:rgba(255, 255, 255, 0.952);
+}
+.card-title{
+font-size: 0.7rem;
+font-weight: 800;
+color:rgba(71, 6, 6, 0.933);
+}
+.card-title2 {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: rgba(0, 181, 0, 0.952);
+}
+.contact2 {
+    border-top-left-radius: 10px;
+    font-size: 0.5rem;
+    background-color:rgba(0, 181, 0, 0.952);
+    margin-top: 12%;
+    color: rgba(255, 255, 255, 0.952);
+}

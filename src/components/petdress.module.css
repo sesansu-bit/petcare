@@ -1,0 +1,25 @@
+.dress-title{
+margin-top: 20%;
+font-size: 1.3rem;
+font-weight: 700;
+    color: rgb(33, 3, 3);
+    margin-bottom: 1.5rem;
+}
+.dress-about{
+    margin:2rem 2rem 2rem 2rem;
+}
+.dress{
+background-color: rgba(255, 255, 255, 0.968);
+}
+.para{
+    margin-left: 5px;
+    color: rgb(33, 3, 3);
+    margin-right: 0.4rem;
+}
+.img-container{
+margin-right: 1rem;
+margin-bottom: 0.3rem;
+margin-left: 0.3rem;
+border-radius: 10px;
+border:3px solid rgb(33, 3, 3);
+}

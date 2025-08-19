@@ -1,0 +1,47 @@
+.cloth-container {
+    width: 100%;
+    display: grid;
+
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    height: auto;
+    padding-right: 0.5rem;
+    gap: 1rem;
+    padding-left: 0.5rem;
+    place-items: center;
+}
+
+.topbox {
+    padding-bottom: 0px;
+
+}
+
+.sort {
+    bottom: 0;
+    margin-left: auto;
+    font-size: 1.2rem;
+}
+
+.arrow {
+    padding-top: 7px;
+    margin-right: 1rem;
+}
+
+.cover {
+    margin-left: auto;
+    margin-top: 70px;
+    margin-right: 0.5rem;
+    margin-bottom: 17px;
+    color: rgb(0, 218, 0);
+    background-color: rgb(33, 3, 3);
+    padding-bottom: 0.2rem;
+}
+
+.dropdown {
+    right: 0;
+    margin-top: -0.5rem;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 3, 3);
+}

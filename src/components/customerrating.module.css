@@ -1,0 +1,90 @@
+
+.customerratingcover {
+    width: 100vw;
+    height: 90vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: rgb(33, 3, 3);
+    padding: 1rem;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-color: rgba(0, 215, 0, 0.7) transparent;
+}
+
+.customerratingcover::-webkit-scrollbar {
+    display: none;
+}
+.customerrating {
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+.dress-title {
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+        background-color: rgb(33, 3, 3);
+    color:rgba(0, 215, 0, 0.952);
+    border-bottom: 2px solid rgba(0, 226, 0, 0.952);
+}
+.rating-box{
+    border-top-left-radius: 20px;
+    background-color: rgba(220, 220, 220, 0.952);
+        border-bottom-right-radius: 20px;
+        backdrop-filter: blur(10px);
+        border:3px solid rgba(255, 255, 255, 0.952);
+
+}
+.rating-contact{
+  margin-left: auto;
+  margin-top: -40px;
+  margin-right: 20px;
+  
+  border:3px solid rgb(33, 3, 3);
+  background-color: rgb(255, 255, 255);
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 900;
+color: rgb(33, 3, 3);
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.rating-cover{
+    position:absolute;
+overflow-x:auto;
+    
+    box-shadow: inset 0 0px 40px rgba(255, 255, 255, 0.952);
+}
+.rating-upperbox{
+overflow-x: auto;
+}
+.rating{
+margin-top: 12px;
+padding-left: 0.5rem;
+padding-right: 1.4rem;
+background-color: rgb(33, 3, 3);
+border-top-right-radius: 20px;
+color: rgba(0, 210, 0, 0.952);
+}
+.rating-text{
+    padding-top: 0.5rem;
+    margin-left: 0.1rem;
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(33, 3, 3);
+    color:rgba(255, 255, 255, 0.952);
+}

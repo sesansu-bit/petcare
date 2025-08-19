@@ -1,0 +1,95 @@
+.dynamicfood{
+    padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+}
+.productname {
+    margin-top: 0.4rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:rgb(33, 3, 3);
+}
+
+.companyname {
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.2rem;
+    font-size: 1.3rem;
+    color: rgb(33, 3, 3);
+    cursor: pointer;
+    background-image: linear-gradient(90deg, rgba(0, 133, 0, 0.952) 7%, rgb(175, 110, 255) 29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.productrating {
+    margin-left: 0.75rem;
+    margin-top: 0.5rem;
+    font-weight: 550;
+    cursor: pointer;
+    color: white;
+}
+
+.discount {
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    color: rgb(33, 3, 3);
+}
+
+.originalprice {
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    text-decoration: line-through;
+
+    color: rgb(33, 3, 3);
+}
+
+.ongoingprice {
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(33, 3, 3);
+}
+
+.price {
+    margin-top: 4%;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(33, 3, 3);
+}
+
+
+
+.detailed {
+    margin-top: 5%;
+    margin-left: 2%;
+    color: rgb(236, 236, 236);
+}
+  .newaddtocart {
+      height: 37px;
+      width: 70%;
+      margin-top: 1rem;
+      border-radius: 6px;
+      margin-left: 2.5px;
+      color: rgba(0, 216, 0, 0.952);
+      cursor: pointer;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+      background-color: rgb(33, 3, 3);
+  }
+
+
+ .newremove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 37px;
+    width: 70%;    margin-top: 1rem;
+    border-radius: 6px;
+    margin-left: 2.5px;
+    color:  rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgba(0, 43, 0, 0.952);
+}

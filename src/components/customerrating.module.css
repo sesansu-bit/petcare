@@ -19,7 +19,7 @@
     display: flex;
     gap: 1.5rem;
     width: max-content;
-  animation: scroll 10s linear infinite;
+ /* animation: scroll 10s linear infinite;*/
 }
 
 @keyframes scroll {
@@ -32,7 +32,7 @@
     }
 }
 .dress-title {
-    margin-top: 10rem;
+    margin-top: 8rem;
     font-size: 1.3rem;
     font-weight: 800;
         background-color: rgb(33, 3, 3);

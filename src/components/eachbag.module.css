@@ -1,5 +1,5 @@
 .eachcart {
-    height: 130px;
+    height: 140px;
     width: 98%;
     margin-top: 0.9rem;
     margin-left: 1%;
@@ -10,7 +10,7 @@ background: linear-gradient(90deg, rgba(0, 230, 0, 1) 14%, rgba(21, 2, 2, 0.968)
 }
 .cartimage {
     width: 32%;
-    height: 123.5px;
+    height: 95.5%;
     margin:3px 3px 3px 3px;
     border-radius: 5px;
     overflow: hidden;
@@ -138,4 +138,31 @@ background: linear-gradient(90deg, rgba(0, 230, 0, 1) 14%, rgba(21, 2, 2, 0.968)
 
 .delevery{
     font-size: 0.9rem;
+}
+
+
+
+@media (min-width: 598px) {
+.eachcart {
+        height: 155px;
+        width: 98%;
+        margin-top: 0.9rem;
+        margin-left: 1%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: flex-start;
+        background: linear-gradient(90deg, rgba(0, 230, 0, 1) 14%, rgba(21, 2, 2, 0.968) 14%);
+    }
+}
+@media (min-width: 598px) {
+.eachcart {
+        height: 140px;
+        width: 98%;
+        margin-top: 0.9rem;
+        margin-left: 1%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: flex-start;
+        background: linear-gradient(90deg, rgba(0, 230, 0, 1) 14%, rgba(21, 2, 2, 0.968) 14%);
+    }
 }

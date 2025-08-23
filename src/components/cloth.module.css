@@ -1,42 +1,152 @@
+.dress-title {
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(33, 3, 3);
+    margin-bottom: 5rem;
+}
+
+.dress-about {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.dress {
+    background-color: rgba(255, 255, 255, 0.968);
+}
+
+.para {
+    margin-left: 5px;
+    color: rgb(33, 3, 3);
+    margin-right: 0.4rem;
+}
+
+.img-container {
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+    border-radius: 10px;
+    border: 3px solid rgb(33, 3, 3);
+}
+
 .cloth-container {
     width: 100%;
     display: grid;
-  
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     box-sizing: border-box;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
     height: auto;
     padding-right: 0.5rem;
     gap: 1rem;
     padding-left: 0.5rem;
+    margin-bottom: 6rem;
     place-items: center;
 }
-.topbox{
-    padding-bottom:0px; 
-    
+
+
+
+
+
+
+
+@media (min-width: 500px) {
+    .dress-title {
+        font-size: 1.6rem;
+    }
+
+
 }
-.sort{
-   bottom: 0;
-   margin-left:auto ;
-   font-size: 1.2rem;
+
+@media (min-width: 810px) {
+    .dress-title {
+        font-size: 1.9rem;
+    }
+
+
 }
-.arrow{
-padding-top: 7px;
-margin-right: 1rem;
+
+
+@media (min-width: 960px) {
+    .dress-title {
+        font-size: 2rem;
+    }
+
+
 }
-.cover{
-    margin-left: auto;
-    margin-top: 70px;
-    margin-right: 0.5rem;
-        margin-bottom: 17px;
-        color: rgb(0, 218, 0);
-                            background-color: rgb(33, 3, 3);
-        padding-bottom: 0.2rem;
+
+@media (min-width: 858px) {
+    .cloth-container {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+        height: auto;
+        place-items: center;
+        gap: 7rem;
+        padding-left: 1.5rem;
+
+        padding-right: 1.5rem;
+    }
 }
-.dropdown{
-        right: 0;
-        margin-top: -0.5rem;
-            margin-right: 0.5rem;
-                    color: rgb(255, 255, 255);
-                    background-color: rgb(33, 3, 3);
+
+@media (min-width: 1062px) {
+    .cloth-container {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+        height: auto;
+        place-items: center;
+        gap: 7rem;
+        padding-left: 2.5rem;
+
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1338px) {
+    .cloth-container {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+        height: auto;
+        place-items: center;
+        gap: 8rem;
+        padding-left: 2.5rem;
+
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1402px) {
+    .cloth-container {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+        height: auto;
+        place-items: center;
+        gap: 9rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width: 1530px) {
+    .browsing-container {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+        height: auto;
+        place-items: center;
+        gap: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }

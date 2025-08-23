@@ -20,7 +20,7 @@ const aboutData = [
     id: 2,
     title: "What We Offer",
     content: [
-      "Wide range of pet food, toys & grooming products.",
+      "Wide range of pet food, grooming products.",
       "Personalized pet training support.",
       "Online consultation with vets and trainers.",
       "Fast delivery & easy return policy."
@@ -57,13 +57,13 @@ const aboutData = [
   return (
     <div className={`${styles["about-container"]} w-screen flex justify-evenly flex-col h-auto`}>
       <div className={`${styles["title"]} w-full flex justify-end h-[5%]`}>
-        why should you <span className={`${styles["choose"]} text-green-500`}>choose us ?</span>
+        <span className={`${styles["choose"]} text-green-500`}> - why should you choose us ?</span>
       </div>
 
       {aboutData.map((section) => (
         <div
           key={section.id}
-          className={`${styles["container"]} w-full flex h-[22%] ${
+          className={`${styles["container"]} w-full flex h-[160px] ${
             section.reverse ? "flex-row-reverse" : ""
           }`}
         >
@@ -77,7 +77,7 @@ const aboutData = [
             />
           </div>
 
-          <div className={`${styles["right-content"]} w-[70%] h-full`}>
+          <div className={`${styles["right-content"]} w-[400px]  h-full`}>
             <div className={`${styles["mission"]} justify-center w-full flex h-[19%]`}>
               {section.title}
             </div>

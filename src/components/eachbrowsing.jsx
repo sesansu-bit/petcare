@@ -6,7 +6,7 @@ const Eachbrowsing = ({ item }) => {
    
   return (
     <div
-      className={`${styles["eachcontainer"]} relative h-[300px] w-[175px] cursor-pointer`}
+      className={`${styles["eachcontainer"]} relative h-[300px] w-[177px] cursor-pointer`}
     >
       <img src={item.image} alt={item.item_name} />
 

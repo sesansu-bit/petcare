@@ -35,12 +35,13 @@ export default function Dynamiccloth({ id }) {
 
   return (
     <div className={`${styles["dynamicfood"]} h-auto w-screen`}>
-      <div className={`${styles["productimagecover"]} relative h-[380px] w-[96%]`}>
+      <div className={`${styles["productimagecover"]} relative h-[380px] w-[94vw]`}>
         <Image
           src={item.image}
           alt="Pet Image"
+           sizes="100%"
           fill
-          className={`${styles["hello"]} absolute object-cover`}
+          className={`${styles["hello"]} absolute object-auto`}
         />
       </div>
 

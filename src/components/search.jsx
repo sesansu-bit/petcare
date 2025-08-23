@@ -107,7 +107,7 @@ export default function Search({ search, setSearch }) {
                   </div>
                 ))
               ) : (
-                <p className="text-gray-400 px-3 py-2">No results found</p>
+                <pre className="text-gray-400 px-3  py-2">     No results found</pre>
               )}
             </div>
           )}

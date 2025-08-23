@@ -20,7 +20,7 @@ export default function Petfood() {
                                        className="absolute object-cover rounded-[50%]" /> 
             </div>
                      <div className={`${styles["food-title"]} w-[160px] h-[30px] flex   text-white justify-center z-7`}>Types of Pet Food </div>
-            <div className={`${styles["pet-text"]} w-[160px] h-[62%]  flex text-white justify-center items-evenly z-7`}>
+            <div className={`${styles["pet-text"]} w-full h-[62%]  flex text-white justify-center items-evenly z-7`}>
               1 . Dry Food (Kibble)
               <br/>
             2 . Wet/Canned Food
@@ -49,7 +49,7 @@ export default function Petfood() {
             </div>
                      <div className={`${styles["food-title"]} w-[160px] h-[30px] flex   text-white justify-center z-7`}>Nutrition
 </div>
-            <div className={`${styles["pet-text"]} w-[160px] h-[62%]  flex text-white justify-center items-evenly z-7`}>
+            <div className={`${styles["pet-text"]} w-full h-[62%]  flex text-white justify-center items-evenly z-7`}>
             1 . Protein Needs
  <br/>
  2 . Vitamins & Minerals
@@ -73,7 +73,7 @@ export default function Petfood() {
                                        className="absolute object-cover rounded-[50%]" /> 
             </div>
                      <div className={`${styles["food-title"]} w-[160px] h-[30px] flex   text-white justify-center z-7`}>Health Benefits </div>
-            <div className={`${styles["pet-text"]} w-[160px] h-[62%]  flex text-white justify-center items-evenly z-7`}>
+            <div className={`${styles["pet-text"]} w-full h-[62%]  flex text-white justify-center items-evenly z-7`}>
            1 . Skin & Coat Health
 <br/>
 2 . Gut Health
@@ -98,7 +98,7 @@ export default function Petfood() {
                                        className="absolute object-cover rounded-[50%]" /> 
             </div>
                      <div className={`${styles["food-title"]} w-[160px] h-[30px] flex   text-white justify-center z-7`}>Get Right Food </div>
-            <div className={`${styles["pet-text"]} w-[160px] h-[62%]  flex text-white justify-center items-evenly z-7`}>
+            <div className={`${styles["pet-text"]} w-full h-[62%]  flex text-white justify-center items-evenly z-7`}>
             1 . Reading Labels 
               <br/>
 

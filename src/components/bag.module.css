@@ -12,6 +12,7 @@
 .leftcart {
     height: 100%;
     width: 100%;
+    padding-left: 1rem;
 }
 
 .rightcart {
@@ -36,4 +37,47 @@
     font-family: "Protest Guerrilla", sans-serif;
     font-size: x-large;
 }
+@media (min-width: 818px) {
+.fullcart {
+        height: 100%;
+        width: 100%;
+        padding-top: 69px;
+        display: flex;
+        padding-bottom: 69px;
+        flex-direction: row;
+    }
 
+    .leftcart {
+        height: 100%;
+        width: 50%;
+    }
+
+    .rightcart {
+        height: 100%;
+        width: 50%;
+        top: 0;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1324px) {
+    .fullcart {
+        height: 100%;
+        width: 100%;
+        padding-top: 69px;
+        display: flex;
+        padding-bottom: 69px;
+        flex-direction: row;
+    }
+
+    .leftcart {
+        height: 100%;
+        width: 40%;
+    }
+
+    .rightcart {
+        height: 100%;
+        width: 60%;
+        top: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -15,7 +15,7 @@ const Eachfood = ({ item }) => {
     <Link href={`/food/${item.id}`}>
       <div
         onClick={handleClick}
-        className={`${styles["eachcontainer"]} relative h-[300px] w-[175px]`}
+        className={`${styles["eachcontainer"]} relative h-[300px] w-[177px]`}
       >
         <img src={item.image} alt={item.item_name} />
         <div className={styles["detailed"]}>

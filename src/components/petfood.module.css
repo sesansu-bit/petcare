@@ -1,9 +1,9 @@
 .dress-title{
-margin-top: 36%;
+margin-top: 8rem;
 font-size: 1.7rem;
 font-weight: 700;
 color: rgb(33, 3, 3);
-margin-bottom: 1.5rem;
+margin-bottom: 4rem;
 }
 
 .food{
@@ -32,4 +32,86 @@ border-radius: 10px;
     padding :0.7rem 0.5rem 0.5rem 0.5rem;
     border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
+}
+
+
+@media (min-width: 743px) {
+    .food-box {
+            width: 100%;
+                display: grid;
+                padding-bottom: 20px;
+                box-sizing: border-box;
+                grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+                height: auto;
+                padding-right: 0.5rem;
+                gap: 4rem;
+                padding-left: 0.5rem;
+                place-items: center;
+    }
+    .food{
+        width:210px;
+    }
+
+  .food1 {
+      width: 210px;
+  }
+  .pet-text{
+    font-size: 1rem;
+  }
+    
+}
+@media (min-width: 888px) {
+.food-box {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        height: auto;
+        padding-right: 3rem;
+        gap: 4rem;
+        padding-left: 3rem;
+        place-items: center;
+    }
+}
+@media (min-width: 1202px) {
+    .food-box {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        height: auto;
+        padding-right: 3rem;
+        gap: 8rem;
+        padding-left: 3rem;
+        place-items: center;
+    }
+}
+@media (min-width: 1295px) {
+    .food-box {
+        width: 100%;
+        display: grid;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        height: auto;
+        padding-right: 3rem;
+        gap: 13rem;
+        padding-left: 3rem;
+        place-items: center;
+    }
+         .food {
+             width: 255px;
+             height:355px;
+         }
+    
+         .food1 {
+             width: 250px;
+            height: 355px;
+         }
+    
+         .pet-text {
+             font-size: 1.2rem;
+         }
 }

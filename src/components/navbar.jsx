@@ -15,7 +15,7 @@ export default function Navbar() {
   const bagitem = useSelector((store) => store.bagitem);
 
   const [mounted, setMounted] = useState(false);
-
+ 
   // Only render dynamic values after client mount
   useEffect(() => {
     setMounted(true);
@@ -36,8 +36,8 @@ export default function Navbar() {
           </div>
         </Link> 
 
-          <div className={`${styles["itemcover"]} flex text-white w-[50%] justify-evenly`}>
-            <Link href="/cloth" className={`${styles["clothtab"]} text-white`}>Cloth</Link>  
+          <div className={`${styles["itemcover"]} flex text-white w-[50%]  justify-evenly`}>
+            <Link href="/cloth" className={`${styles["clothtab"]} text-white `}>Cloth</Link>  
             <Link href="/medicine" className={`${styles["medicinetab"]} text-white`}>Medicine</Link>  
             <Link href="/food" className={`${styles["foodtab"]} text-white`}>Food</Link>   
           </div> 
@@ -47,7 +47,7 @@ export default function Navbar() {
            <div className={`${styles["searchicon2"]} flex  items-center h-[25px] w-[25px] `} >
             <FaSearch className={`${styles["icon2"]} `}/> 
           </div>        
- <p>search for items... </p>
+ <p>search for products... </p>
  </div>
 
 

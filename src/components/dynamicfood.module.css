@@ -54,7 +54,7 @@
 }
 
 .price {
-    margin-top: 4%;
+    margin-top: 0.8rem;
     font-weight: 600;
     cursor: pointer;
     color: rgb(33, 3, 3);
@@ -95,4 +95,31 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     background-color: rgba(0, 43, 0, 0.952);
+}
+
+.productimagecover {
+    margin-left: 2vw;
+    margin-right: 4vw;
+}
+
+@media (min-width: 600px) {
+    .productimagecover {
+        height: 580px;
+    }
+
+}
+
+@media (min-width: 922px) {
+    .productimagecover {
+        width: 85vw;
+        height: 780px;
+        margin-left: 8vw;
+        margin-top: 3rem;
+    }
+
+    .detailed {
+        margin-top: 5%;
+        margin-left: 8%;
+        color: rgb(236, 236, 236);
+    }
 }

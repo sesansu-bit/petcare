@@ -40,12 +40,30 @@
     padding-left: 0.5rem;
     margin-bottom: 6rem;
     place-items: center;
+    margin-top:0px;
 }
 
+.topbox {
+    margin-top: 80px;
 
+}
 
+.cover {
+    background-color: rgb(33, 3, 3);
+    color: white;
+    margin-left: 1rem;
+}
 
+.arrow {
+    margin-top: 0.8rem;
+}
 
+.dropdown {
+    margin-left: 1rem;
+    margin-top: 134px;
+    background-color: rgb(33, 3, 3);
+    color: rgb(0, 215, 0);
+}
 
 
 @media (min-width: 500px) {
@@ -103,6 +121,29 @@
 
         padding-right: 1.5rem;
     }
+
+    .topbox {
+        margin-top: 100px;
+
+    }
+
+    .cover {
+        background-color: rgb(33, 3, 3);
+        color: white;
+        margin-left: 4rem;
+    }
+
+    .arrow {
+        margin-top: 0.8rem;
+    }
+
+    .dropdown {
+        margin-left: 4rem;
+        margin-top: 134px;
+        background-color: rgb(33, 3, 3);
+        color: rgb(0, 215, 0);
+    }
+
 }
 
 @media (min-width: 1338px) {
@@ -148,5 +189,32 @@
         gap: 10rem;
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+    .cloth-container {
+
+        margin-top: 0px;
+    }
+
+    .topbox {
+        margin-top: 100px;
+
+    }
+
+    .cover {
+        background-color: rgb(33, 3, 3);
+        color: white;
+        margin-left: 1rem;
+    }
+
+    .dropdown {
+        margin-left: 1rem;
+        margin-top: 134px;
+        background-color: rgb(33, 3, 3);
+        color: rgb(0, 215, 0);
     }
 }

@@ -38,7 +38,7 @@ export default function Cloth() {
     <>
       {/* Top Bar */}
       <div
-        className={`${styles["topbox"]} relative w-screen border border-white h-[110px]`}
+        className={`${styles["topbox"]} fixed z-5 w-screen h-[33px]`}
       >
         <div
           onClick={() => setShowSide(!showSide)}
@@ -56,10 +56,10 @@ export default function Cloth() {
       {/* Dropdown */}
       {showSide && (
         <div
-          className={`${styles["dropdown"]} fixed z-5 w-[180px] rounded-[8px] bg-white text-black`}
+          className={`${styles["dropdown"]} fixed z-5 w-[180px] border border-white rounded-[8px] bg-white text-black`}
         >
           <div
-            className="w-[180px] border border-gray-300 flex justify-center items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("asc");
               setShowSide(false);
@@ -68,7 +68,7 @@ export default function Cloth() {
             Ascending
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center  rounded-[8px]  items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("desc");
               setShowSide(false);
@@ -77,7 +77,7 @@ export default function Cloth() {
             Descending
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("500");
               setShowSide(false);
@@ -86,7 +86,7 @@ export default function Cloth() {
             500 and below
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("1000");
               setShowSide(false);

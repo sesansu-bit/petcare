@@ -72,7 +72,7 @@ const aboutData = [
               src={section.image}
               alt="Pet Image"
               fill
-              sizes="110px"
+              sizes="100%"
               className="absolute object-cover rounded-[50%]"
             />
           </div>

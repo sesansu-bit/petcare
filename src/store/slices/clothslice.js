@@ -4,8 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const clothSlice = createSlice({
   name: "cloth",
   initialState: {
-    items: [ 
-  {
+    items: [ {
     "id": "1",
     "image": "/cloth0.jpeg",
     "company": "PawLuxe",
@@ -18,8 +17,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "27k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "2",
@@ -34,8 +32,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "57k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "3",
@@ -50,8 +47,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "28k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "4",
@@ -66,8 +62,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.8,
       "count": "49k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "5",
@@ -82,8 +77,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 5.0,
       "count": "10k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "6",
@@ -98,8 +92,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.2,
       "count": "3500"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "7",
@@ -114,8 +107,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.3,
       "count": "18k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "8",
@@ -130,8 +122,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.4,
       "count": "12k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "9",
@@ -146,8 +137,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.0,
       "count": "9k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "10",
@@ -162,8 +152,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "14k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "11",
@@ -178,8 +167,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.2,
       "count": "6k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "12",
@@ -194,8 +182,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.6,
       "count": "22k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "13",
@@ -210,8 +197,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.4,
       "count": "8k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "14",
@@ -226,8 +212,7 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "19k"
-    },
-    "type": "cloth"
+    }
   },
   {
     "id": "15",
@@ -242,11 +227,8 @@ const clothSlice = createSlice({
     "rating": {
       "stars": 4.0,
       "count": "10k"
-    },
-    "type": "cloth"
-  }
-
-],
+    }
+  } ],
   },
   reducers: {
     setClothes: (state, action) => {
@@ -257,3 +239,7 @@ const clothSlice = createSlice({
 
 export const { setClothes } = clothSlice.actions;
 export default clothSlice.reducer;
+
+
+
+

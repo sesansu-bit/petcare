@@ -2,15 +2,24 @@
 import styles from "./medicine.module.css";
 import Eachmedicine from "./eachmedicine.jsx";
 import { FaArrowDown } from "react-icons/fa";
-import { useSelector } from "react-redux";
-import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setMedicines } from "../store/slices/medicineslice.js";
+import { useState, useEffect } from "react";
 
-export default function Medicine() {
+export default function Medicine({medicinedata}) {
   const [showSide, setShowSide] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
 
   const medicineitem = useSelector((state) => state.medicine.items);
 
+   const dispatch = useDispatch();
+    useEffect(() => {
+      if (medicinedata && medicinedata.length > 0) {
+        dispatch(setMedicines(medicinedata));
+      }
+    }, [medicinedata, dispatch]);
+  
+  
   if (!medicineitem || medicineitem.length === 0) {
     return <p>Loading medicines...</p>;
   }

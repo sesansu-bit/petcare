@@ -4,8 +4,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const medicineSlice = createSlice({
   name: "medicine",
   initialState: {
-    items: [ 
-  {
+    items: [
+      {
     "id": "17",
     "image": "/medicine1.jpeg",
     "company": "PetCure Labs",
@@ -18,8 +18,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "57k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "18",
@@ -34,8 +33,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "28k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "19",
@@ -50,8 +48,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.8,
       "count": "49k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "20",
@@ -66,8 +63,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.6,
       "count": "10k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "21",
@@ -82,8 +78,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.2,
       "count": 3500
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "22",
@@ -98,8 +93,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 3.9,
       "count": "34k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "23",
@@ -114,8 +108,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 3.9,
       "count": "43k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "24",
@@ -130,8 +123,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 3.4,
       "count": "76k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "25",
@@ -146,8 +138,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.3,
       "count": "52k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "26",
@@ -162,8 +153,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.4,
       "count": "65k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "27",
@@ -178,8 +168,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "46k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "28",
@@ -194,8 +183,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 3.8,
       "count": "65k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "29",
@@ -210,8 +198,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 4.9,
       "count": "37k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "30",
@@ -226,8 +213,7 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 5.0,
       "count": "45k"
-    },
-    "type": "medicine"
+    }
   },
   {
     "id": "31",
@@ -242,11 +228,10 @@ const medicineSlice = createSlice({
     "rating": {
       "stars": 5.0,
       "count": "45k"
-    },
-    "type": "medicine"
+    }
   }
 
-],
+    ],
   },
   reducers: {
     setMedicines: (state, action) => {

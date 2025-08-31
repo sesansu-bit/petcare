@@ -2,15 +2,25 @@
 import styles from "./food.module.css";
 import Eachfood from "./eachfood.jsx";
 import { FaArrowDown } from "react-icons/fa";
-import { useSelector } from "react-redux";
-import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setFoods } from "../store/slices/foodslice.js";
+import { useState, useEffect } from "react";
 
-export default function Food() {
+export default function Food({fooddata}) {
   const [showSide, setShowSide] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
 
   const fooditem = useSelector((state) => state.food.items);
 
+  const dispatch = useDispatch();
+    useEffect(() => {
+      if (fooddata && fooddata.length > 0) {
+        dispatch(setFoods(fooddata));
+      }
+    }, [fooddata, dispatch]);
+  
+  
+  
   if (!fooditem || fooditem.length === 0) {
     return <p>Loading food items...</p>;
   }

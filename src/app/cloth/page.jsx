@@ -1,8 +1,11 @@
 import Cloth from "@/components/cloth.jsx";
+import { getItems } from "@/lib/fetchData.js";
 
-export default function  ClothStore(){
+export default async function ClothStore() {
+  const items = await getItems(); 
   return (
-  
-    <Cloth/>  
+    
+      <Cloth clothdata={items.items.itemcloth} />
+
   );
 }

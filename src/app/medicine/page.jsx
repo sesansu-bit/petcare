@@ -1,8 +1,11 @@
 import Medicine from "@/components/medicine.jsx";
-
-export default function  MedicineStore(){
+import { getItems } from "@/lib/fetchData.js";
+export default async function MedicineStore() {
+  const items = await getItems(); 
   return (
-  
-    <Medicine/>  
+ <Medicine medicinedata={items.items.itemmedicine} />
   );
 }
+
+
+  

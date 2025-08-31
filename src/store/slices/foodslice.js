@@ -5,7 +5,7 @@ const foodSlice = createSlice({
   name: "food",
   initialState: {
     items: [
-  {
+   {
     "id": "31",
     "image": "/petfood14.webp",
     "company": "Pawfect Bites",
@@ -18,8 +18,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "57k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "32",
@@ -34,8 +33,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "28k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "33",
@@ -50,8 +48,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.8,
       "count": "49k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "34",
@@ -66,8 +63,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 5.0,
       "count": "10k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "35",
@@ -82,8 +78,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.2,
       "count": "3500"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "36",
@@ -98,8 +93,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 2.9,
       "count": "34k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "37",
@@ -114,8 +108,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 3.9,
       "count": "43k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "38",
@@ -130,8 +123,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 3.4,
       "count": "76k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "39",
@@ -146,8 +138,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.3,
       "count": "52k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "40",
@@ -162,8 +153,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.4,
       "count": "65k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "41",
@@ -178,8 +168,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.1,
       "count": "46k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "42",
@@ -194,8 +183,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.6,
       "count": "128k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "43",
@@ -210,8 +198,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.2,
       "count": "18k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "44",
@@ -226,8 +213,7 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.7,
       "count": "33k"
-    },
-    "type": "food"
+    }
   },
   {
     "id": "45",
@@ -242,10 +228,9 @@ const foodSlice = createSlice({
     "rating": {
       "stars": 4.5,
       "count": "76k"
-    },
-    "type": "food"
+    }
   }
-
+    
 ],
   },
   reducers: {

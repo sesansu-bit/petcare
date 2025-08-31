@@ -5,17 +5,18 @@ import { FaArrowDown } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
+
 export default function Cloth() {
   const [showSide, setShowSide] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
-
+  
   const clothitem = useSelector((state) => state.cloth.items);
- 
+
   if (!clothitem || clothitem.length === 0) {
     return <p>Loading clothes...</p>;
   }
 
-  // Sorting & Filtering Logic
+  // Filtering logic (same as before)
   const getFilteredProducts = () => {
     let products = [...clothitem];
 
@@ -37,9 +38,7 @@ export default function Cloth() {
   return (
     <>
       {/* Top Bar */}
-      <div
-        className={`${styles["topbox"]} fixed z-5 w-screen h-[33px]`}
-      >
+      <div className={`${styles["topbox"]} fixed z-5 w-screen h-[33px]`}>
         <div
           onClick={() => setShowSide(!showSide)}
           className={`${styles["cover"]} relative flex justify-center items-center w-[180px] rounded-[8px] h-[30px] cursor-pointer`}
@@ -59,7 +58,7 @@ export default function Cloth() {
           className={`${styles["dropdown"]} fixed z-5 w-[180px] border border-white rounded-[8px] bg-white text-black`}
         >
           <div
-            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px] items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("asc");
               setShowSide(false);
@@ -68,7 +67,7 @@ export default function Cloth() {
             Ascending
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center  rounded-[8px]  items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px] items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("desc");
               setShowSide(false);
@@ -77,7 +76,7 @@ export default function Cloth() {
             Descending
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px] items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("500");
               setShowSide(false);
@@ -86,7 +85,7 @@ export default function Cloth() {
             500 and below
           </div>
           <div
-            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px]  items-center h-[25px] cursor-pointer"
+            className="w-[180px] border border-gray-300 flex justify-center rounded-[8px] items-center h-[25px] cursor-pointer"
             onClick={() => {
               setSelectedOption("1000");
               setShowSide(false);
@@ -98,9 +97,7 @@ export default function Cloth() {
       )}
 
       {/* Product Grid */}
-      <div
-        className={`${styles["cloth-container"]} relative w-screen z-1 h-auto grid grid-cols-4 gap-4`}
-      >
+      <div className={`${styles["cloth-container"]} relative w-screen z-1 h-auto grid grid-cols-4 gap-4`}>
         {filteredProducts.map((items) => (
           <Eachcloth key={items.id} item={items} />
         ))}
@@ -108,3 +105,5 @@ export default function Cloth() {
     </>
   );
 }
+
+

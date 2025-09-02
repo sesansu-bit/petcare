@@ -1,8 +1,12 @@
-import Bag from "@/components/bag.jsx";
+import dynamic from "next/dynamic";
 
-export default function  ClothStore(){
+const Bag = dynamic(() => import("@/components/bag.jsx"));
+
+export default function ClothStore() {
   return (
-  
-    <Bag/>  
+    <div>
+      <h1>Cloth Store</h1>
+      <Bag />  
+    </div>
   );
 }

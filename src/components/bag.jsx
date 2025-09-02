@@ -22,6 +22,10 @@ const Bag = () => {
   if (!mounted) return null; // avoid hydration mismatch
 
   return (
+  <>
+     {bagitem.length ===0 &&
+ <div className={styles["add"]}><p>Add something to Bag</p></div>
+ }
     <div className={styles["fullcart"]}>
       <div className={styles["leftcart"]}>
         {bagitem.map((itembag, index) => (
@@ -31,7 +35,8 @@ const Bag = () => {
       <div className={styles["rightcart"]}>
         <Calculation />
       </div>
-    </div>
+      </div>
+      </>
   );
 };
 

@@ -23,7 +23,7 @@
 }
 
 .add {
-    background-color: #09001c;
+    background-color: rgb(33, 3, 3);
     position: fixed;
     height: 100%;
     width: 100%;
@@ -33,7 +33,7 @@
 }
 
 .add p {
-    color: rgb(231, 213, 255);
+    color: rgb(255, 255, 255);
     font-family: "Protest Guerrilla", sans-serif;
     font-size: x-large;
 }
